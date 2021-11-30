@@ -1,0 +1,31 @@
+@import "../../../../../variables.scss";
+
+.top__header_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top__header_btn{
+    border: none;
+    background-color: transparent;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: $transition;
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    -ms-transition: $transition;
+    -o-transition: $transition;
+}
+.top__header_btn:hover,
+.top__header_btn:hover.top__header_btn > i{
+    color: $primary-color;
+}
+.top__header_btn > i{
+    color: $font-color;
+    margin-right: 5px;
+    transition: $transition;
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    -ms-transition: $transition;
+    -o-transition: $transition;
+}

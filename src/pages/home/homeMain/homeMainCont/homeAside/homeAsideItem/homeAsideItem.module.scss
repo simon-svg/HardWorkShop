@@ -1,0 +1,29 @@
+@import "../../../../../../variables.scss";
+
+.home__aside_item_list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.home__aside_item_item{
+    margin-top: 10px;
+    &:first-child{
+        margin-top: 0;
+    }
+}
+.home__aside_item_link,
+.home__aside_item_label{
+    font-size: 17px;
+    color: $heading-color;
+}
+.home__aside_item_link{
+    transition: $transition;
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    -ms-transition: $transition;
+    -o-transition: $transition;
+    &:hover{
+        color: $primary-color;
+    }
+}

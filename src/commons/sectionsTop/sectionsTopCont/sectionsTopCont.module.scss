@@ -1,0 +1,28 @@
+@import "../../../variables.scss";
+
+.sections__top_cont{
+    padding: 100px 0;
+}
+.sections__top_title{
+    color: $white;
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+.sections__top_path_list{
+    display: flex;
+    align-items: center;
+}
+.sections__top_path_item{
+    color: $white;
+    text-transform: uppercase;
+}
+.sections__top_path_link{
+    margin-right: 10px;
+}
+.sections__top_path_link:hover{
+    color: $primary-color;
+}
+.sections__top_path_current{
+    margin-left: 10px;
+}

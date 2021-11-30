@@ -1,0 +1,33 @@
+@import "../../variables.scss";
+
+.button{
+    color: $white;
+    padding: 14px 30px;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transition: $transitionBG;
+    -webkit-transition: $transitionBG;
+    -moz-transition: $transitionBG;
+    -ms-transition: $transitionBG;
+    -o-transition: $transitionBG;
+}
+.btnPrimary{
+    background-color: $primary-color;
+    &:hover{
+        background-color: $secondary-color;
+    }
+}
+.btnSecondary{
+    background-color: $secondary-color;
+    &:hover{
+        background-color: $primary-color;   
+    }
+}

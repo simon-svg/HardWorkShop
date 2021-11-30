@@ -1,0 +1,25 @@
+@import "../../../../variables.scss";
+
+.header__nav_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__nav_item{
+    margin: 0 15px;
+}
+.header__nav_link{
+    font-size: 15px;
+    color: $white;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: $transition;
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    -ms-transition: $transition;
+    -o-transition: $transition;
+}
+.header__nav_link:hover,
+.header__link_active{
+    color: $primary-color;
+}

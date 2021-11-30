@@ -1,0 +1,20 @@
+@import "../../../../../variables.scss";
+
+.about__work_head{
+    width: 50%;
+}
+.about__work_title{
+    color: $heading-color;
+    font-size: 30px;
+    line-height: 40px;
+}
+.about__work_title_bold{
+    font-size: 40px;    
+    font-weight: 700;
+}
+.about__work_subtitle{
+    color: $font-color;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 26px;
+}

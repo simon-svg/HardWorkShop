@@ -1,0 +1,20 @@
+@import "../../../../../../variables.scss";
+
+.home__swiper_item_cont{
+    width: 50%;
+}
+.home__swiper_item_info{
+    margin-bottom: 20px;
+}
+.home__swiper_item_subtitle{
+    font-size: 23px;
+    color: $heading-color;
+    letter-spacing: .5px;
+}
+.home__swiper_item_title{
+    color: $black;
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 50px;
+    margin-top: 20px;
+}

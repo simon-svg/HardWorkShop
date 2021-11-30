@@ -1,0 +1,17 @@
+@import "../../../../../variables.scss";
+
+.footer__item{
+    margin: 10px 0;
+}
+.footer__link{
+    color: $footer-link;
+    font-size: 14px;
+    transition: $transition;
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    -ms-transition: $transition;
+    -o-transition: $transition;
+    &[href]:hover{
+        color: $primary-color;
+    }
+}

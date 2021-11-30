@@ -1,0 +1,15 @@
+@import "../../../../variables.scss";
+
+.categories__select{
+    outline: none;
+    border: none;
+    color: $white;
+    font-size: 14px;
+    background: transparent;
+    padding: 10px 10px;
+    cursor: pointer;
+    border: 1px solid rgb(251 251 251 / 23%);
+}
+.categories__select_item{
+    color: $black;
+}

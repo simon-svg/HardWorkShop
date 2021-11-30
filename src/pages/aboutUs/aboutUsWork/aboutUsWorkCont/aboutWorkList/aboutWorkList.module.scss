@@ -1,0 +1,17 @@
+@import "../../../../../variables.scss";
+
+.about__work_list{
+    margin-top: 20px;
+}
+.about__work_item{
+    display: flex;
+    margin-top: 20px;
+    i{
+        color: $primary-color;
+    }
+}
+.about__work_item_inner{
+    color: $font-color;
+    font-size: 16px;
+    margin-left: 10px;
+}

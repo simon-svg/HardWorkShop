@@ -1,0 +1,20 @@
+@import "../../../../../variables.scss";
+
+.contact__contact_form_cont{
+    width: 50%;
+}
+.inp{
+    width: 100%;
+    color: $heading-color;
+    background-color: $white;
+    font-size: 15px;
+    padding: 14px;
+    border: $border-color-light;
+    outline: none;
+    margin-bottom: 16px;
+    border-radius: 4px;
+}
+.textarea{
+    height: 150px;
+    resize: none;
+}

@@ -1,0 +1,20 @@
+@import "../../../../../variables.scss";
+
+.costumer__head{
+    width: 60%;
+}
+.customer__title{
+    color: $white;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+.customer__title_bold{
+    font-size: 40px;
+    font-weight: 700;
+}
+.customer__par{
+    color: $white;
+    font-size: 16px;
+    line-height: 26px;
+}

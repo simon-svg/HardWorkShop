@@ -1,0 +1,42 @@
+@import "../../../../../variables";
+
+.header__panel{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__panel_item{
+    margin: 0 8px;
+}
+.header__panel_item > i{
+    font-size: 20px;
+    cursor: pointer;
+    transition: $transition;
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    -ms-transition: $transition;
+    -o-transition: $transition;
+}
+.header__panel_item:hover.header__panel_item > i,
+.header__panel_basket:hover {
+    color: $primary-color;
+}
+.header__panel_basket{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    transition: $transition;
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    -ms-transition: $transition;
+    -o-transition: $transition;
+}
+.header__panel_basket > i{
+    font-size: 20px;
+    margin-right: 5px;
+}

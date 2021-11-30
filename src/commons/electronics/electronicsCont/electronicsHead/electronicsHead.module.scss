@@ -1,0 +1,14 @@
+@import "../../../../variables.scss";
+
+.electronics__title{
+    color: $heading-color;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.electronics__par{
+    color: $font-color;
+    font-size: 15px;
+    line-height: 26px;
+    margin-top: 20px;
+}
